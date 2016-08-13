@@ -1,7 +1,6 @@
-<!-- Means we are using HTML 5 -->
 <!DOCTYPE html>
-<!-- Shows that the site is english so Google
-can translate easier -->
+<!-- Means we are using HTML 5 -->
+<!-- Shows that the site is english so Google can translate easier -->
 <html lang="en">
 <head>
   <title>Jennifer Tran</title>
@@ -18,31 +17,56 @@ can translate easier -->
   <link rel="stylesheet" href="/assets/css/1-tools/bootstrap/css/bootstrap.min.css"/>
   <link rel="stylesheet" href="/assets/css/main.css" />
 
-
-
 </head>
+
+<!-- APIS -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+
+<!-- Navigation bar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div id= "navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="#section-1">Home<span class="sr-only">(current)</span></a></li>
+        <li><a href="#section-2">About</a></li>
+        <li><a href="#section-3">Projects</a></li>
+        <li><a href="#section-4">Contact</a></li>
+      </ul>
+
+    </div>
+
+  </div> <!-- Container fluid -->
+</nav>
 
 <!-- Where all the content goes.. -->
 <body>
 
-<div class="container">
-  <!--Title of webpages-->
-  <center>
-    <h1>Hello World!</h1>
+<!-- Header -->
+<div class="jumbotron header">
+  <div class="container-fluid vertical-center">
+    <center>
+      <h1 id="section-1">Jennifer Tran</h1>
+      <p>Developer, Designer, Geek</p>
+    </center>
+  </div>
+</div>
 
-    <!-- Nagivation Links -->
-    <nav>
-      <a href="http://www.twitter.com">Twitter</a>
-      <a href="http://www.Facebook.com">Facebook</a>
-      <a href="http://www.Google.com">Google</a>
-    </nav>
-  </center>
-
-  <!-- Self-explanatory -->
-  <article>
-    <!--Title of pages-->
-    <h2>Cupcake ipsum dolor sit amet.</h2>
-
+<!-- About page -->
+<div class="about">
+  <div class="container">
+    <b><h2 id="section-2">About Me</h2></b>
+    <hr>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas elementum, turpis quis volutpat hendrerit, mi nibh ultrices quam, a laoreet quam dui eu massa. Nullam luctus eleifend nibh. Ut commodo magna vulputate tellus rhoncus, eget condimentum lectus efficitur. Nunc et lacus at nisi varius feugiat in quis sem. Ut at suscipit libero, eget pretium lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
 
     <h3>In rhoncus ultrices posuere.</h3>
@@ -55,8 +79,14 @@ can translate easier -->
       <br>Maecenas feugiat neque sed nulla egestas, vel dictum libero ultrices.
       <br>Maecenas cursus ornare sem, vel facilisis turpis viverra sed.
     </blockquote>
+  </div>
+</div>
 
-    <p>Nulla et ligula vitae felis pharetra vestibulum condimentum mollis lectus.</p>
+<!-- Projects -->
+<div class="projects">
+  <div class="container">
+    <h2 id="section-3">Projects</h2>
+    <hr>
 
     <!-- Unordered List -->
     <ul>
@@ -67,12 +97,10 @@ can translate easier -->
       <li>Ut pellentesque nibh eu gravida pharetra</li>
     </ul>
 
-    <hr>
-    <center>
-    <h4>Nam iaculis est id rutrum tristique</h4>
+    <h2>Nam iaculis est id rutrum tristique</h2>
 
     <!-- Alt is used if the image is not loading -->
-    <img src="/assets/images/flowers.jpg" alt="Flowers" class="img-responsive"></center>
+    <center><img src="/assets/images/flowers.jpg" alt="Flowers" class="img-responsive"></center>
     <br>
 
     <!-- Shows horizontal line -->
@@ -81,28 +109,29 @@ can translate easier -->
     <!--Shows more emphasis on a certain line-->
     <strong>Vivamus eu diam et erat commodo pharetra quis quis massa.</strong></p>
 
-    <h4>Etiam id molestie enim.</h4>
-
-    <p>Mauris lorem elit, luctus ac sem eu, eleifend semper quam. Ut dictum velit eget dolor consequat elementum. Cras euismod mattis quam, sit amet pharetra neque ultrices eu. Nunc tellus arcu, facilisis ac varius sed, tempor eget ipsum. In euismod ornare libero, eget feugiat neque fermentum facilisis. Mauris molestie nibh id elit maximus laoreet vitae eu lectus.
-    <!-- Similar to italics -->
-    <em> Proin congue lectus ac justo lobortis, non accumsan dolor convallis. Quisque quis dolor aliquam, vehicula eros sed, ultrices quam.</em></p>
-
-  </article>
-
-  <!--Content that is not related to the main content of a page﻿
-  AKA Sidebar stuff-->
-  <aside>
-  Etiam auctor enim purus, vel malesuada orci egestas ac. Donec accumsan mattis elit sed egestas. Morbi vitae placerat purus, at tempor enim. Ut porta sapien vitae libero porta malesuada.
-  </aside>
-  <br>
-
-  <center><footer><p>Copyright by Jennifer Tran</p></footer></center>
+    <br>
+  </div>
 </div>
 
-<!-- Impots jquery and bootstrap -->
+<!-- Contact -->
+<div class="contact">
+  <div class ="container">
+    <h2 id="section-4">Contact Me</h2>
+    <hr>
+    <p>Mauris lorem elit, luctus ac sem eu, eleifend semper quam. Ut dictum velit eget dolor consequat elementum. Cras euismod mattis quam, sit amet pharetra neque ultrices eu. Nunc tellus arcu, facilisis ac varius sed, tempor eget ipsum. In euismod ornare libero, eget feugiat neque fermentum facilisis. Mauris molestie nibh id elit maximus laoreet vitae eu lectus.</p>
+    <br>
+  </div>
+</div>
+
+<!--Footer-->
+<div class="footer header">
+  <center><footer><p>© 2016 by Jennifer Tran</p></footer></center>
+</div>
+
+<!-- Imports jquery,bootstrap, and javascript -->
 <script src="/assets/js/jquery-2.1.1.min.js"></script>
-<script src="/assets/js/functions.js" type="text/javascript"></script>
 <script src="/assets/js/bootstrap.js"></script>
+<script src="/assets/js/functions.js" type="text/javascript"></script>
 
 </body>
 </html>

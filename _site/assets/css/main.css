@@ -1,0 +1,47 @@
+.jumbotron {
+    margin: 0;
+    height: 100vh;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  url('/assets/images/wallpaper.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about{
+  padding: 0;
+  background-color: white;
+  color: black;
+}
+
+.projects{
+  background-color: #f5f5f0;
+}
+
+.footer{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.hidden{
+  opacity:0;
+}
