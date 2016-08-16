@@ -6,15 +6,17 @@
   <title>Jennifer Tran</title>
   <meta charset="utf-8">
 
-  <!--Makes sure it's being viewed properly-->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <!-- Favicon -->
   <link rel="shortcut icon" href="/assets/images/clouds.ico">
 
   <!-- Links to other files -->
   <link rel="stylesheet" href="/assets/css/1-tools/bootstrap/css/bootstrap.min.css"/>
-  <link rel="stylesheet" href="/assets/css/main.css" />
+  <link rel="stylesheet" href="/assets/css/main.css"/>
+  <link rel="stylesheet" href="/assets/css/1-tools/font-mfizz-2.3.0/font-mfizz.css">
+
+  <!--Makes sure it's being viewed properly-->
+  <!-- user-scalable doesn't allow ppl to zoom in on mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
 </head>
 
@@ -24,6 +26,9 @@
 <!-- Navigation bar -->
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
+
+    <a href ="#" class = "navbar-brand navbar-left navName">Jennifer Tran</a>
+
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
         <span class="sr-only">Toggle navigation</span>
@@ -36,11 +41,11 @@
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div id= "navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li><a href="#section-1">Home<span class="sr-only">(current)</span></a></li>
-        <li><a href="#section-2">About</a></li>
-        <li><a href="#section-3">Projects</a></li>
-        <li><a href="#section-4">Contact</a></li>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
 
     </div>
@@ -62,71 +67,90 @@
 </div>
 
 <!-- About page -->
-<div class="about">
-  <div class="container">
-    <b><h3 id="section-2">About Me</h3></b>
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas elementum, turpis quis volutpat hendrerit, mi nibh ultrices quam, a laoreet quam dui eu massa. Nullam luctus eleifend nibh. Ut commodo magna vulputate tellus rhoncus, eget condimentum lectus efficitur. Nunc et lacus at nisi varius feugiat in quis sem. Ut at suscipit libero, eget pretium lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-
-    <h4>In rhoncus ultrices posuere.</h4>
-
-    <!-- <br> is used to seperate lines -->
-    <blockquote>
-      Aliquam sem turpis, rhoncus at faucibus eget, fringilla eu mauris.
-      <br>Curabitur tincidunt aliquam tincidunt.
-      <br>Aenean laoreet vel justo in malesuada.
-      <br>Maecenas feugiat neque sed nulla egestas, vel dictum libero ultrices.
-      <br>Maecenas cursus ornare sem, vel facilisis turpis viverra sed.
-    </blockquote>
-  </div>
+<div class="about container" id="about">
+    <div class ="row">
+      <div class="col-md-5">
+        <!-- Alt is used if the image is not loading -->
+        <center><img src="/assets/images/me.png" alt="Simple icon" class="img-responsive"></center>
+      </div>
+      <div class="col-md-7">
+          <b><h3>About Me</h3></b>
+          <p>Hello there, my name is Jennifer. I'm currently in 3rd year of my computer science degree
+            and I am hoping to pursue a career in web development. Right now i'm always trying to
+            keep myself up to date with the latest technologies. By applying this newfound knowledge to my
+            future projects, I aim to make the web a better place.</p>
+      </div>
+    </div>
 </div>
 
 <!-- Skills -->
-<div class="skills">
+<div class="skills" id="skills">
   <div class="container">
-    <h3 id="">Skills</h3>
+    <h3>Skills</h3>
 
-    <h4>Nam iaculis est id rutrum tristique</h4>
+    <div class="row">
+      <div class="col-md-4">
+        <h4>Programming Languages</h4>
+        <ul>
+          <li>Java</li>
+          <li>C</li>
+          <li>C++</li>
+          <li>Ruby</li>
+        </ul>
+      </div>
 
-    <!-- Alt is used if the image is not loading -->
-    <center><img src="/assets/images/flowers.jpg" alt="Flowers" class="img-responsive"></center>
-    <br>
-    <!-- Shows horizontal line -->
-    <p>Sed ac nisi at nulla facilisis laoreet ac suscipit augue.
-    <!--Shows more emphasis on a certain line-->
-    <strong>Vivamus eu diam et erat commodo pharetra quis quis massa.</strong></p>
+      <div class="col-md-4">
+        <h4>Web Languages/Frameworks</h4>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Bootstrap</li>
+        </ul>
+      </div>
 
+      <div class="col-md-4">
+        <h4>Other</h4>
+        <ul>
+          <li>Am able to communicate with other people well</li>
+          <li>Work as a team player</li>
+          <li>Can think critically to solve problems</li>
+        </ul>
+      </div>
 
+    </div>
   </div>
 </div>
 
 <!-- Projects -->
-<div class="projects">
+<div class="projects" id="projects">
   <div class="container">
-    <h3 id="section-3">Projects</h3>
+    <h3>Projects</h3>
 
     <!-- Codepen Projects -->
-    <p data-height="379" data-theme-id="dark" data-slug-hash="KzGVJq" data-default-tab="html,result" data-user="JustClouds" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/JustClouds/pen/KzGVJq/">Beyoncé Tribute Page</a> by Jennifer (<a href="http://codepen.io/JustClouds">@JustClouds</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-    <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+    <div class="col-md-6">
+      <p data-height="354" data-theme-id="dark" data-slug-hash="KzGVJq" data-default-tab="result" data-user="JustClouds" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/JustClouds/pen/KzGVJq/">Beyoncé Tribute Page</a> by Jennifer (<a href="http://codepen.io/JustClouds">@JustClouds</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+      <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+    </div>
 
-    <br>
-    <!-- Unordered List -->
-    <ul>
-      <!--With bullets -->
-      <li>Fusce pulvinar tellus nec mi posuere imperdiet. Vivamus elementum quis dolor at imperdiet.</li>
-      <li>Phasellus urna massa, lacinia vel semper eu, tempus non metus.</li>
-      <li>Pellentesque enim ligula, semper in condimentum a, posuere sit amet urna.</li>
-      <li>Ut pellentesque nibh eu gravida pharetra</li>
-    </ul>
+    <div class="col-md-6">
+      <!-- Unordered List -->
+      <ul>
+        <!--With bullets -->
+        <li>Fusce pulvinar tellus nec mi posuere imperdiet. Vivamus elementum quis dolor at imperdiet.</li>
+        <li>Phasellus urna massa, lacinia vel semper eu, tempus non metus.</li>
+        <li>Pellentesque enim ligula, semper in condimentum a, posuere sit amet urna.</li>
+        <li>Ut pellentesque nibh eu gravida pharetra</li>
+      </ul>
+    </div>
 
     <br>
   </div>
 </div>
 
 <!-- Contact -->
-<div class="contact">
+<div class="contact" id="contact">
   <div class ="container">
-    <h3 id="section-4">Contact Me</h3>
+    <h3>Contact Me</h3>
     <p>Mauris lorem elit, luctus ac sem eu, eleifend semper quam. Ut dictum velit eget dolor consequat elementum. Cras euismod mattis quam, sit amet pharetra neque ultrices eu. Nunc tellus arcu, facilisis ac varius sed, tempor eget ipsum. In euismod ornare libero, eget feugiat neque fermentum facilisis. Mauris molestie nibh id elit maximus laoreet vitae eu lectus.</p>
     <br>
   </div>

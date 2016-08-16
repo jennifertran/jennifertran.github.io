@@ -6,7 +6,7 @@ p {
 /* Title Font */
 h1 {
   font-family: 'Vollkorn', serif;
-  font-size: 14vw;
+  font-size: 13vmin;
 }
 
 /* Tagline */
@@ -21,7 +21,21 @@ h3 {
   font-size: 20pt;
 }
 
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15pt;
+}
+
 li {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14pt;
+}
+
+body {
+  padding-top: 50px;
+}
+
+.navName{
   font-family: 'Open Sans', sans-serif;
   font-size: 14pt;
 }
@@ -34,12 +48,14 @@ li {
 }
 
 .header {
+  /* Gives the background shadowy effect */
   background:
   linear-gradient(
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
   ),
   url('/assets/images/wallpaper.jpg') no-repeat center;
+  /* Fills the entire screen with the background image */
   background-size: cover;
 }
 
@@ -47,6 +63,7 @@ li {
   min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
   min-height: 100vh; /* These two lines are counted as one :-)       */
 
+  /* Centers the jumbotron text */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -54,14 +71,18 @@ li {
 
 /* First Block */
 .about {
-  padding: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
   background-color: white;
   color: black;
 }
 
 /* Second Block */
 .skills {
+  padding-top: 30px;
+  padding-bottom: 30px;
   background-color: #f5f5f0;
+  color: black;
 }
 
 /* Third Block */
@@ -75,8 +96,13 @@ li {
 }
 
 .footer {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: white;
   font-family: 'Vollkorn', serif;
+}
+
+.img-responsive{
+  max-width: 60%; /* or to whatever you want here */
+  max-height: 60%; /* or to whatever you want here */
 }
