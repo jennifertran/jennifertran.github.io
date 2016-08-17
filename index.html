@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="/assets/css/1-tools/bootstrap/css/bootstrap.min.css"/>
   <link rel="stylesheet" href="/assets/css/main.css"/>
   <link rel="stylesheet" href="/assets/css/1-tools/font-mfizz-2.3.0/font-mfizz.css">
+  <link rel="stylesheet" href="/assets/css/1-tools/font-awesome-4.6.3/css/font-awesome.min.css">
 
   <!--Makes sure it's being viewed properly-->
   <!-- user-scalable doesn't allow ppl to zoom in on mobile-->
@@ -21,16 +22,18 @@
 </head>
 
 <!-- APIS -->
-<link href="https://fonts.googleapis.com/css?family=Open+Sans|Vollkorn" rel="stylesheet" type="text/css">
+
+<!-- Backup Font if custom one fails -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat" rel="stylesheet" type="text/css">
 
 <!-- Navigation bar -->
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
 
-    <a href ="#" class = "navbar-brand navbar-left navName">Jennifer Tran</a>
+    <a href ="#" class = "navbar-brand navbar-left navName" style="color: black">Jennifer Tran</a>
 
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+      <button type="button" class="navbar-toggle collapsed" style="color: black" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -41,7 +44,7 @@
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div id= "navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav navbar-right">
+      <ul class="nav navbar-nav navbar-right" style="font-family: 'MoonLight'">
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
@@ -57,12 +60,13 @@
 <body>
 
 <!-- Header -->
-<div class="jumbotron header">
-  <div class="container-fluid vertical-center">
-    <center>
-      <strong><h1 id="section-1">Jennifer Tran</h1></strong>
-      <i><h2>Developer, Designer, Geek</h2></i>
-    </center>
+<div class="header vertical-center">
+  <div class="container-fluid">
+    <div class="center">
+      <h2>HI THERE, I'M</h2>
+      <strong><h1>JENNIFER TRAN</h1></strong>
+      <h2>I DEVELOP THINGS</h2>
+    </div>
   </div>
 </div>
 
@@ -71,10 +75,11 @@
     <div class ="row">
       <div class="col-md-5">
         <!-- Alt is used if the image is not loading -->
-        <center><img src="/assets/images/me.png" alt="Simple icon" class="img-responsive"></center>
+        <center><img src="/assets/images/me.png" alt="Simple icon" class="img-responsives"></center>
       </div>
       <div class="col-md-7">
           <b><h3>About Me</h3></b>
+          <hr>
           <p>Hello there, my name is Jennifer. I'm currently in 3rd year of my computer science degree
             and I am hoping to pursue a career in web development. Right now i'm always trying to
             keep myself up to date with the latest technologies. By applying this newfound knowledge to my
@@ -85,36 +90,40 @@
 
 <!-- Skills -->
 <div class="skills" id="skills">
-  <div class="container">
-    <h3>Skills</h3>
-
-    <div class="row">
+  <div class="container" style="font-family: 'Open Sans'">
+    <b><h3>Skills</h3></b>
+    <hr>
+    <div class="row center">
       <div class="col-md-4">
-        <h4>Programming Languages</h4>
+        <strong><h4>Programming Languages</h4></strong>
         <ul>
           <li>Java</li>
           <li>C</li>
           <li>C++</li>
           <li>Ruby</li>
         </ul>
+        <br>
       </div>
 
       <div class="col-md-4">
-        <h4>Web Languages/Frameworks</h4>
+        <strong><h4>Web Languages/Frameworks</h4></strong>
         <ul>
           <li>HTML</li>
           <li>CSS</li>
           <li>Bootstrap</li>
         </ul>
+        <br>
       </div>
 
       <div class="col-md-4">
-        <h4>Other</h4>
+        <strong><h4>Other</h4></strong>
         <ul>
-          <li>Am able to communicate with other people well</li>
-          <li>Work as a team player</li>
-          <li>Can think critically to solve problems</li>
+          <li>Communicates effectly</li>
+          <li>Team player</li>
+          <li>Critical Thinker</li>
+          <li>Problem Solver</li>
         </ul>
+        <br>
       </div>
 
     </div>
@@ -124,23 +133,21 @@
 <!-- Projects -->
 <div class="projects" id="projects">
   <div class="container">
-    <h3>Projects</h3>
+    <b><h3>Projects</h3></b>
+    <hr>
 
     <!-- Codepen Projects -->
-    <div class="col-md-6">
-      <p data-height="354" data-theme-id="dark" data-slug-hash="KzGVJq" data-default-tab="result" data-user="JustClouds" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/JustClouds/pen/KzGVJq/">Beyoncé Tribute Page</a> by Jennifer (<a href="http://codepen.io/JustClouds">@JustClouds</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-      <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+    <div class="col-md-5">
+      <center><img src="/assets/images/TributeProject.png" alt="Beyoncé Tribute Page" class="img-responsive"></center>
     </div>
 
-    <div class="col-md-6">
-      <!-- Unordered List -->
-      <ul>
-        <!--With bullets -->
-        <li>Fusce pulvinar tellus nec mi posuere imperdiet. Vivamus elementum quis dolor at imperdiet.</li>
-        <li>Phasellus urna massa, lacinia vel semper eu, tempus non metus.</li>
-        <li>Pellentesque enim ligula, semper in condimentum a, posuere sit amet urna.</li>
-        <li>Ut pellentesque nibh eu gravida pharetra</li>
-      </ul>
+    <div class="col-md-7">
+      <b><h3>Beyonce Tribute Page</h3></b>
+      <hr>
+      <p>A simple user story page dedicating to Beyoncé's life. This includes her life's story and achievements.</p>
+      <br>
+      <p>See the project <a href="http://codepen.io/JustClouds/pen/KzGVJq" target="_blank">here.</a></p>
+
     </div>
 
     <br>
@@ -150,15 +157,48 @@
 <!-- Contact -->
 <div class="contact" id="contact">
   <div class ="container">
-    <h3>Contact Me</h3>
-    <p>Mauris lorem elit, luctus ac sem eu, eleifend semper quam. Ut dictum velit eget dolor consequat elementum. Cras euismod mattis quam, sit amet pharetra neque ultrices eu. Nunc tellus arcu, facilisis ac varius sed, tempor eget ipsum. In euismod ornare libero, eget feugiat neque fermentum facilisis. Mauris molestie nibh id elit maximus laoreet vitae eu lectus.</p>
-    <br>
+    <b><h3>Contact Me</h3></b>
+    <hr>
+    <div class= "row">
+      <center>
+      <div class="col-md-3 col-sm-3 col-xs-6">
+        <a href="mailto:jennifer.tran101@gmail.com" target="blank">
+  				<i class="contact-icon fa fa-envelope fa-5x"></i>
+  			</a>
+        <br>
+      </div>
+
+      <div class="col-md-3 col-sm-3 col-xs-6">
+        <a href="https://github.com/jennifertran" target="blank">
+  				<i class="contact-icon fa fa-github fa-5x"></i>
+  			</a>
+        <br>
+      </div>
+
+      <div class="col-md-3 col-sm-3 col-xs-6">
+        <a href="https://ca.linkedin.com/in/jennifer-tran-49b0a0101" target="blank">
+  				<i class="contact-icon fa fa-linkedin fa-5x"></i>
+  			</a>
+        <br>
+      </div>
+
+      <div class="col-md-3 col-sm-3 col-xs-6">
+        <a href="http://codepen.io/JustClouds" target="blank">
+  				<i class="contact-icon fa fa-codepen fa-5x"></i>
+  			</a>
+        <br>
+      </div>
+
+    </center>
+    </div>
   </div>
 </div>
 
 <!--Footer-->
 <div class="footer header">
-  <center><footer><p>© 2016 by Jennifer Tran</p></footer></center>
+  <div class="container">
+    <center><footer><p>© 2016 by Jennifer Tran</p></footer></center>
+  </div>
 </div>
 
 <!-- Imports jquery,bootstrap, and javascript -->
