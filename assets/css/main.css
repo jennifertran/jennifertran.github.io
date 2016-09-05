@@ -1,5 +1,5 @@
 a:link, a:visited {
-  color: #0654AE;
+  color: #277DDF;
 }
 
 p {
@@ -98,15 +98,59 @@ body {
   }
 }
 
+/*
 .navbar{
   background-color: white;
 }
+*/
 
-.hr{
-  color: black;
+/* Navigation Settings */
+.navbar-default {
+    background-color: white;
 }
 
-.nav .navbar-nav .navbar-right .navbar-brand{
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #FFF;
+}
+
+/* Nagivation Link Color */
+.navbar-default .navbar-nav > li > a {
+    color: black;
+}
+
+/* Nav Link Hover Color */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: #0654AE;
+    color: white;
+}
+
+.navbar-default .navbar-text {
+    color: black;
+}
+
+/* Responsive Button Border */
+.navbar-default .navbar-toggle {
+    border-color: black;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+/* Responsive Button Background */
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: white;
+}
+
+/* Responsive Button Icon-color */
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+/* Divider Settings */
+.hr{
   color: black;
 }
 
