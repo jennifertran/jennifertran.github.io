@@ -7,13 +7,13 @@
   <meta charset="utf-8">
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="/assets/images/clouds.ico">
+  <link rel="shortcut icon" href="assets/images/clouds.ico">
 
   <!-- Links to other files -->
-  <link rel="stylesheet" href="/assets/css/1-tools/bootstrap/css/bootstrap.min.css"/>
-  <link rel="stylesheet" href="/assets/css/main.css"/>
-  <link rel="stylesheet" href="/assets/css/1-tools/font-mfizz-2.3.0/font-mfizz.css">
-  <link rel="stylesheet" href="/assets/css/1-tools/font-awesome-4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="main.css"/>
+  <link rel="stylesheet" href="assets/css/1-tools/bootstrap/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="assets/css/1-tools/font-mfizz-2.3.0/font-mfizz.css">
+  <link rel="stylesheet" href="assets/css/1-tools/font-awesome-4.6.3/css/font-awesome.min.css">
 
   <!--Makes sure it's being viewed properly-->
   <!-- user-scalable doesn't allow ppl to zoom in on mobile-->
@@ -65,7 +65,7 @@
     <div class="center">
       <h2>HI THERE, I'M</h2>
       <strong><h1>JENNIFER TRAN</h1></strong>
-      <h2>I DEVELOP THINGS</h2>
+      <h2>Developer & Designer</h2>
     </div>
   </div>
 </div>
@@ -75,7 +75,7 @@
     <div class ="row">
       <div class="col-md-5">
         <!-- Alt is used if the image is not loading -->
-        <center><img src="/assets/images/me.png" alt="Simple icon" class="img-responsives"></center>
+        <center><img src="assets/images/profile.jpg" alt="Simple icon" class="img-responsives img-circle"></center>
       </div>
       <div class="col-md-7">
           <center><b><h3>About Me</h3></b></center>
@@ -93,7 +93,7 @@
   <div class="container" style="font-family: 'Open Sans'">
     <center><b><h3>Skills</h3></b></center>
     <hr>
-    <div class="row center">
+    <div class="row">
       <div class="col-md-4">
         <strong><h4>Programming Languages</h4></strong>
         <ul>
@@ -101,6 +101,7 @@
           <li>C</li>
           <li>C++</li>
           <li>Ruby</li>
+          <li>Ruby on Rails</li>
         </ul>
         <br>
       </div>
@@ -110,7 +111,9 @@
         <ul>
           <li>HTML</li>
           <li>CSS</li>
+          <li>JavaScript</li>
           <li>Bootstrap</li>
+          <li>jQuery</li>
         </ul>
         <br>
       </div>
@@ -118,10 +121,11 @@
       <div class="col-md-4">
         <strong><h4>Other</h4></strong>
         <ul>
-          <li>Effective Communicater</li>
-          <li>Team player</li>
-          <li>Critical Thinker</li>
-          <li>Problem Solver</li>
+          <li>SQL</li>
+          <li>Android</li>
+          <li>UI/UX Design</li>
+          <li>Git</li>
+          <li>A-Frame</li>
         </ul>
         <br>
       </div>
@@ -131,27 +135,105 @@
 </div>
 
 <!-- Projects -->
-<div class="projects" id="projects">
-  <div class="container">
-    <center><b><h3>Projects</h3></b></center>
-    <hr>
+<div class="projects container" id="projects">
+  <center><b><h3>Projects</h3></b></center>
+  <hr>
 
-    <!-- Codepen Projects -->
-    <div class="col-md-5">
-      <center><img src="/assets/images/TributeProject.png" alt="Beyoncé Tribute Page" class="img-responsive"></center>
+  <br>
+
+  <div class="row">
+    <div>
+      <!-- Dev Match -->
+      <div class="col-md-5">
+        <center><img src="assets/images/DevMatch.png" alt="Dev Match" class="img-responsive"></center>
+      </div>
+      <div class="col-md-7">
+        <center><b><h3>Dev Match</h3></b></center>
+        <hr>
+        <p>A Ruby on Rails app that allows entrepreneurs and developers meetup. Features include a user interface, login/logout system with authentication, email notifications, and subscription payments for premium services.</p>
+        <br>
+        <p><a href="https://dev-match1.herokuapp.com/" target="_blank">Demo</a> | <a href="https://github.com/jennifertran/DevMatch" target="_blank">Source</a></p>
+      </div>
     </div>
 
-    <div class="col-md-7">
-      <b><h3>Beyonce Tribute Page</h3></b>
-      <hr>
-      <p>A simple user story page dedicating to Beyoncé's life. This includes her life's story and achievements.</p>
-      <br>
-      <p>See the project <a href="http://codepen.io/JustClouds/pen/KzGVJq" target="_blank">here.</a></p>
-
-    </div>
-
-    <br>
   </div>
+
+  <br>
+
+  <div class="row">
+    <div>
+      <!-- JavaScript 30 -->
+      <div class="col-md-5">
+        <center><img src="assets/images/JavaScript30.png" alt="JavaScript30" class="img-responsive"></center>
+      </div>
+      <div class="col-md-7">
+        <center><b><h3>JavaScript 30</h3></b></center>
+        <hr>
+        <p>A coding challenge that builds 30 different projects in 30 days. Used HTML, CSS, JavaScript</p>
+        <br>
+        <p><a href="https://jennifertran.github.io/JavaScript30/" target="_blank">Demo</a> | <a href="https://github.com/jennifertran/JavaScript30" target="_blank">Source</a></p>
+      </div>
+    </div>
+
+  </div>
+
+  <br>
+
+  <div class="row">
+    <div>
+      <!-- Space Simulator -->
+      <div class="col-md-5">
+        <center><img src="assets/images/space.png" alt="Space Simulator in VR" class="img-responsive"></center>
+      </div>
+      <div class="col-md-7">
+        <center><b><h3>Space Simulator in VR</h3></b></center>
+        <hr>
+        <p>An outer space environment in WebVR using the framework A-Frame. Created during MLH Local Hack Day 2016.</p>
+        <br>
+        <p><a href="https://jennifertran.github.io/space-simulator/" target="_blank">Demo</a> | <a href="https://github.com/jennifertran/space-simulator" target="_blank">Source</a></p>
+      </div>
+    </div>
+
+  </div>
+
+  <br>
+
+  <div class="row">
+    <div>
+      <!-- Online Ordering System -->
+      <div class="col-md-5">
+        <center><img src="assets/images/OnlineOrder.jpg" alt="Online Ordering System" class="img-responsive"></center>
+      </div>
+      <div class="col-md-7">
+        <center><b><h3>Online Ordering System</h3></b></center>
+        <hr>
+        <p>A web application that allows customers to order food from various resturants. Used HTML, CSS, JavaScript, jQuery, and BootStrap</p>
+        <br>
+        <p><a href="https://jennifertran.github.io/online-ordering-system/" target="_blank">Demo</a> | <a href="https://github.com/jennifertran/online-ordering-system" target="_blank">Source</a></p>
+      </div>
+    </div>
+
+  </div>
+
+  <br>
+
+  <div class="row">
+    <div>
+      <!-- Codepen Projects -->
+      <div class="col-md-5">
+        <center><img src="assets/images/TributeProject.png" alt="Beyoncé Tribute Page" class="img-responsive"></center>
+      </div>
+      <div class="col-md-7">
+        <center><b><h3>Beyonce Tribute Page</h3></b></center>
+        <hr>
+        <p>A simple user story page dedicating to Beyoncé's life. This includes her life's story and achievements.</p>
+        <br>
+        <p><a href="http://codepen.io/JustClouds/pen/KzGVJq" target="_blank">Demo & Source</a></p>
+      </div>
+    </div>
+
+  </div>
+
 </div>
 
 <!-- Contact -->
@@ -176,7 +258,7 @@
       </div>
 
       <div class="col-md-3 col-sm-3 col-xs-6">
-        <a href="https://ca.linkedin.com/in/jennifer-tran-49b0a0101" target="blank">
+        <a href="https://ca.linkedin.com/in/jennifer-tran1" target="blank">
   				<i class="contact-icon fa fa-linkedin fa-5x"></i>
   			</a>
         <br>
@@ -202,9 +284,9 @@
 </div>
 
 <!-- Imports jquery,bootstrap, and javascript -->
-<script src="/assets/js/jquery-2.1.1.min.js"></script>
-<script src="/assets/js/bootstrap.js"></script>
-<script src="/assets/js/functions.js" type="text/javascript"></script>
+<script src="assets/js/jquery-2.1.1.min.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/functions.js" type="text/javascript"></script>
 
 </body>
 </html>
