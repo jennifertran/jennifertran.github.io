@@ -143,43 +143,41 @@ body {
   color: black;
 }
 
+.padding {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
 /* First Block */
 .about {
-  padding-top: 30px;
-  padding-bottom: 30px;
   background-color: white;
   color: black;
 }
 
 /* Second Block */
 .skills {
-  padding-top: 30px;
-  padding-bottom: 30px;
   color: black;
   font-family: 'Open Sans';
+  background-color: #f5f5f0;
   display: flex;
   align-items: center;
 }
 
 /* Third Block */
 .projects {
-  padding-top: 20px;
-  padding-bottom: 20px;
   background-color: white;
   color: black;
 }
 
 /* Last Block */
 .contact {
-  padding-top: 20px;
-  padding-bottom: 30px;
   background-color: #f5f5f0;
   color: black;
 }
 
 .footer {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   color: white;
   font-family: 'MoonLight';
 }
