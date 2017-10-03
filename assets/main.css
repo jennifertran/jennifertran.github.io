@@ -86,7 +86,7 @@ ul {
 /*#343838, #005F6B, #008C9E, #00B4CC, #00DFFC*/
 
 .header {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(http://i.xomf.com/hfgfn.png) no-repeat center;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/background.png) no-repeat center;
   background-size: cover;
 }
 
