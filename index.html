@@ -30,7 +30,7 @@
         (i[r].q = i[r].q || []).push(arguments)
       }, i[r].l = 1 * new Date();
       a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0];
+          m = s.getElementsByTagName(o)[0];
       a.async = 1;
       a.src = g;
       m.parentNode.insertBefore(a, m)
@@ -56,6 +56,7 @@
     <a href="#about" onclick="closer()">About</a>
     <a href="#skills" onclick="closer()">Skills</a>
     <a href="#projects" onclick="closer()">Projects</a>
+    <a href="https://jennifertran.github.io/MiniProjects/" onclick="closer()" target="_blank">Mini Projects</a>
     <a href="#contact" onclick="closer()">Contact</a>
   </div>
 
@@ -91,7 +92,8 @@
         <div class="profile">
 
           <!-- Alt is used if the image is not loading -->
-          <center><img src="assets/images/profile.jpg" alt="Simple icon" class="img-responsives img-circle"></center>
+          <center><img src="assets/images/profile.jpg" id="portPic" alt="Simple icon" class="img-responsives
+            img-circle"></center>
         </div>
       </div>
 
@@ -99,12 +101,12 @@
         <div class="about-description">
           <b><h3>About Me</h3></b>
           <hr>
-          <p>I'm currently a Computer Science student at the University of Manitoba who loves learning
+          <p>Hello! I'm currently a Computer Science student at the University of Manitoba who loves learning
             about new software technologies and design. Ever since I was exposed to web development in elementary
-            school,
-            my passion for software have grown tremendously through web design.
+            school, my passion for software have grown tremendously throughout the years.
             <br><br>
-            As a hobby, I like to read, draw, and give back to the community by volunteering at local events. In the
+            As a hobby, I like to read, draw, and give back to the community by volunteering at local events and
+            being one of the leaders of a student group called .devClub. In the
             future, I hope to create some projects that shows people the beauty behind design.</p>
         </div>
 
@@ -126,7 +128,8 @@
         <ul>
           <li>Java</li>
           <li>C</li>
-          <li>C++</li>
+          <li>Python</li>
+          <li>JavaScript</li>
           <li>Ruby</li>
           <li>Ruby on Rails</li>
         </ul>
@@ -139,9 +142,11 @@
         <ul>
           <li>HTML</li>
           <li>CSS</li>
-          <li>JavaScript</li>
+          <li>Flask</li>
+          <li>Bower</li>
           <li>Bootstrap</li>
           <li>jQuery</li>
+          <li>Three.js</li>
         </ul>
         <br>
       </div>
@@ -154,7 +159,8 @@
           <li>Android</li>
           <li>UI/UX Design</li>
           <li>Git</li>
-          <li>A-Frame</li>
+          <li>UNIX</li>
+          <li>Latex</li>
         </ul>
         <br>
       </div>
@@ -172,19 +178,56 @@
 
     <div class="row">
       <div>
+        <!-- Music Visualizer -->
+        <div class="col-md-5">
+          <center><img src="assets/images/visualizer.png" alt="Music Visualizer" class="img-responsive"></center>
+        </div>
+        <div class="col-md-7">
+          <b><h3>Music Visualizer</h3></b>
+          <hr>
+          <p>Dynamically displays a visual effect that is responsive to an audio track with dynamic interfaces</p>
+          <br>
+          <p><a href="https://jennifertran.github.io/MusicVisualizer/" target="_blank">Demo</a> | <a
+                  href="https://github.com/jennifertran/MusicVisualizer" target="_blank">Source</a></p>
+        </div>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+      <div>
+        <!-- Search Engine Award -->
+        <div class="col-md-5">
+          <center><img src="assets/images/searchengineaward.png" alt="Search Engine Award" class="img-responsive"></center>
+        </div>
+        <div class="col-md-7">
+          <b><h3>Search Engine Award</h3></b>
+          <hr>
+          <p>An improved version of the University of Manitoba's Award's Database, made for an Industry Project</p>
+          <br>
+          <p><a href="https://searchengineaward.herokuapp.com/" target="_blank">Demo</a> | <a
+                  href="https://github.com/jennifertran/SearchEngineAward" target="_blank">Source</a></p>
+        </div>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+      <div>
         <!-- Travelers -->
         <div class="col-md-5">
-          <center><img src="assets/images/travelers.jpg" alt="Travelers" class="img-responsive travelers"></center>
+          <center><img src="assets/images/travelers.jpg" alt="Travelers" class="img-responsive"></center>
         </div>
         <div class="col-md-7">
           <b><h3>Travelers</h3></b>
           <hr>
-          <p>A booking application that allows users to book for flights, car rentals, and hotels.</p>
+          <p>A booking application that allows users to book for flights, car rentals, and hotels</p>
           <br>
           <p><a href="https://github.com/jennifertran/Travelers" target="_blank">Source</a></p>
         </div>
       </div>
-
     </div>
 
     <br>
@@ -200,10 +243,10 @@
           <hr>
           <p>A Ruby on Rails app that allows entrepreneurs and developers meetup. Features include a user interface,
             login/logout system with authentication, email notifications, and subscription payments for premium
-            services.</p>
+            services</p>
           <br>
           <p><a href="https://dev-match1.herokuapp.com/" target="_blank">Demo</a> | <a
-            href="https://github.com/jennifertran/DevMatch" target="_blank">Source</a></p>
+                  href="https://github.com/jennifertran/DevMatch" target="_blank">Source</a></p>
         </div>
       </div>
 
@@ -223,7 +266,7 @@
           <p>A coding challenge that builds 30 different projects in 30 days. Used HTML, CSS, JavaScript</p>
           <br>
           <p><a href="https://jennifertran.github.io/JavaScript30/" target="_blank">Demo</a> | <a
-            href="https://github.com/jennifertran/JavaScript30" target="_blank">Source</a></p>
+                  href="https://github.com/jennifertran/JavaScript30" target="_blank">Source</a></p>
         </div>
       </div>
 
@@ -240,10 +283,10 @@
         <div class="col-md-7">
           <b><h3>Mini Projects</h3></b>
           <hr>
-          <p>A collection of experimental web projects ranging from 3D graphics to simple UI interfaces.</p>
+          <p>A collection of experimental web projects ranging from 3D graphics to simple UI interfaces</p>
           <br>
           <p><a href="https://jennifertran.github.io/MiniProjects/" target="_blank">Demo</a> | <a
-            href="https://github.com/jennifertran/MiniProjects" target="_blank">Source</a></p>
+                  href="https://github.com/jennifertran/MiniProjects" target="_blank">Source</a></p>
         </div>
       </div>
 
@@ -261,10 +304,10 @@
           <b><h3>Space Simulator in VR</h3></b>
           <hr>
           <p>An outer space environment in WebVR using the framework A-Frame. Created during MLH Local Hack Day
-            2016.</p>
+            2016</p>
           <br>
           <p><a href="https://jennifertran.github.io/space-simulator/" target="_blank">Demo</a> | <a
-            href="https://github.com/jennifertran/space-simulator" target="_blank">Source</a></p>
+                  href="https://github.com/jennifertran/space-simulator" target="_blank">Source</a></p>
         </div>
       </div>
 
@@ -285,7 +328,7 @@
             jQuery, and BootStrap</p>
           <br>
           <p><a href="https://jennifertran.github.io/online-ordering-system/" target="_blank">Demo</a> | <a
-            href="https://github.com/jennifertran/online-ordering-system" target="_blank">Source</a></p>
+                  href="https://github.com/jennifertran/online-ordering-system" target="_blank">Source</a></p>
         </div>
       </div>
 
@@ -350,22 +393,19 @@
 
   </div>
 </div>
-</div>
 
 <!--Footer-->
 <div class="footer header">
   <div class="container">
-    <center>
-      <footer><p>© 2017 by Jennifer Tran</p></footer>
-    </center>
+    <footer><p>© 2017 by Jennifer Tran</p></footer>
   </div>
 </div>
 
 <!-- Imports jquery,bootstrap, and javascript -->
 <script
-  src="https://code.jquery.com/jquery-3.1.1.js"
-  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
-  crossorigin="anonymous"></script>
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
         integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
